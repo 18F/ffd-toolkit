@@ -10,7 +10,7 @@ All development should be done on branches as opposed to personal forks.
 
 #### Pull Requests and Merging
 
-All development should be done on a branch – even typo fixes – before filing a PR against master. You should always get someone else to merge the PR for you. This ensures that every pull request gets some sort of review.
+All development should be done on a branch – even typo fixes – before filing a PR against master. You must always get someone else to merge the PR for you. This ensures that every pull request gets some sort of review.
 
 ### Code Review
 
