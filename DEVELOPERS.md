@@ -28,13 +28,13 @@ Code review is an important part of development, and should not be viewed as a c
 1. Is the code idiomatic? This should be a softer requirement, but remember that for some languages (Python comes to mind) the notion of idiomatic code is a bit of a touchpoint.
 1. Was the code linted? If not, it should be!
 
-### Style Guides
+### Development Best Practices
 
 Style holy wars aside, it's important to have a consistent set of style guidelines for a project for readability, ease of onboarding, and for maintenance. The following style guides should be used for all FFD projects, and you should totally set up linting in your editor so the rules become second nature.
 
 #### Python
 
-Use [Flake8](https://pypi.python.org/pypi/flake8).
+Use Python 3! Use [Flake8](https://pypi.python.org/pypi/!)!
 
 #### Ruby
 
