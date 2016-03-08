@@ -38,8 +38,21 @@ Use Python 3! Use [Flake8](https://pypi.python.org/pypi/!)!
 
 #### Ruby
 
-#### Javascript
+#### JavaScript
 
-#### CSS
+For working with JavaScript on the server, use a version of NodeJS greater than
+or equal to `4.0.0`. When using `npm`, use a version greater than or equal to
+`3.0.0`.
+
+Use `eslint` to lint your JavaScript files and enforce code style and
+conventions for the team. A generic `.eslintrc` file is included in this
+repository.
+
+#### CSS / Sass
 
 Use the [18F Frontend Guild CSS Style Guide](https://pages.18f.gov/frontend/css-coding-styleguide/).
+
+For Sass files, please use the [`.scss-lint.yml`] [18f-lint-scss] file recommended
+from the style guide link above.
+
+[18f-lint-scss]: https://raw.githubusercontent.com/18F/frontend/18f-pages-staging/.scss-lint.yml "18F Frontend CSS Styleguide .scss-lint.yml file"
