@@ -41,8 +41,7 @@ library which helps standardize these settings between various editors in one
 place. This repository includes a generic `.editorconfig` file. Use this file to
 setup your text editors across your team.
 
-[editor-config]: http://editorconfig.org/#download "EditorConfig: Download a
-plugin"
+[editor-config]: http://editorconfig.org/#download "EditorConfig: Download a plugin"
 
 #### Python
 
@@ -57,8 +56,8 @@ or equal to `4.0.0`. When using `npm`, use a version greater than or equal to
 `3.0.0`.
 
 Use `eslint` to lint your JavaScript files and enforce code style and
-conventions for the team. A generic `.eslintrc` file is included in this
-repository.
+conventions for the team. This repository includes a generic `.eslintrc` file.
+Use this file to setup your JavaScript linting across your team.
 
 #### CSS / Sass
 
