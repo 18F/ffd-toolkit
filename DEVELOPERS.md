@@ -32,6 +32,18 @@ Code review is an important part of development, and should not be viewed as a c
 
 Style holy wars aside, it's important to have a consistent set of style guidelines for a project for readability, ease of onboarding, and for maintenance. The following style guides should be used for all FFD projects, and you should totally set up linting in your editor so the rules become second nature.
 
+#### Editor
+
+Regardless of which editor you like to use, most text editors have the ability
+to set a lot things like `line-endings` and whether or not an indentation
+character is a `space` or a `tab`. [EditorConfig] [editor-config] is a python
+library which helps standardize these settings between various editors in one
+place. This repository includes a generic `.editorconfig` file. Use this file to
+setup your text editors across your team.
+
+[editor-config]: http://editorconfig.org/#download "EditorConfig: Download a
+plugin"
+
 #### Python
 
 Use Python 3! Use [Flake8](https://pypi.python.org/pypi/!)!
