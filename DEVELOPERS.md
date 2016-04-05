@@ -52,7 +52,7 @@ Use Python 3! Use [Flake8](https://pypi.python.org/pypi/!)!
 #### JavaScript
 
 For working with JavaScript on the server, use a version of NodeJS greater than
-or equal to `4.0.0`. When using `npm`, use a version greater than or equal to
+or equal to `5.5.0`. When using `npm`, use a version greater than or equal to
 `3.0.0`.
 
 Use `eslint` to lint your JavaScript files and enforce code style and
