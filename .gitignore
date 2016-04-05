@@ -5,7 +5,6 @@
 # OS and Editor files
 #
 .DS_Store
-*.DS_Store
 Thumbs.db
 *.sublime-project
 *.sublime-workspace
