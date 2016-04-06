@@ -39,7 +39,7 @@ to set a lot things like `line-endings` and whether or not an indentation
 character is a `space` or a `tab`. [EditorConfig] [editor-config] is a python
 library which helps standardize these settings between various editors in one
 place. This repository includes a generic `.editorconfig` file. Use this file to
-setup your text editors across your team.
+start a conversation about setting up your text editors across the team.
 
 [editor-config]: http://editorconfig.org/#download "EditorConfig: Download a plugin"
 
