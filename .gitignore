@@ -8,7 +8,6 @@
 Thumbs.db
 *.sublime-project
 *.sublime-workspace
-.svn
 .idea
 .swp
 
