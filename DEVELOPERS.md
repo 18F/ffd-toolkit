@@ -56,8 +56,19 @@ or equal to `5.5.0`. When using `npm`, use a version greater than or equal to
 `3.0.0`.
 
 Use `eslint` to lint your JavaScript files and enforce code style and
-conventions for the team. This repository includes a generic `.eslintrc` file.
-Use this file to setup your JavaScript linting across your team.
+conventions for the team. This repository includes a `.eslintrc` file which
+leverages the Airbnb JavaScript style guide. In order to use this style guide,
+you will need to install the required `npm` packages locally.
+
+```sh
+npm install --save-dev eslint-config-airbnb eslint
+```
+
+From there, your project can leverage the eslint rules that ship with the Airbnb
+JavaScript style guide.
+
+See [Airbnb's JavaScript styleguide](https://github.com/airbnb/javascript) and
+the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
 #### CSS / Sass
 
