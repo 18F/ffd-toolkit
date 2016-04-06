@@ -1,0 +1,11 @@
+{
+    "rules": {},
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "extends": [
+      "airbnb/base",
+      "airbnb/legacy"
+    ]
+}

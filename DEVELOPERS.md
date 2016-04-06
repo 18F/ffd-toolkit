@@ -32,14 +32,49 @@ Code review is an important part of development, and should not be viewed as a c
 
 Style holy wars aside, it's important to have a consistent set of style guidelines for a project for readability, ease of onboarding, and for maintenance. The following style guides should be used for all FFD projects, and you should totally set up linting in your editor so the rules become second nature.
 
+#### Editor
+
+Regardless of which editor you like to use, most text editors have the ability
+to set a lot things like `line-endings` and whether or not an indentation
+character is a `space` or a `tab`. [EditorConfig] [editor-config] is a python
+library which helps standardize these settings between various editors in one
+place. This repository includes a generic `.editorconfig` file. Use this file to
+start a conversation about setting up your text editors across the team.
+
+[editor-config]: http://editorconfig.org/#download "EditorConfig: Download a plugin"
+
 #### Python
 
 Use Python 3! Use [Flake8](https://pypi.python.org/pypi/!)!
 
 #### Ruby
 
-#### Javascript
+#### JavaScript
 
-#### CSS
+For working with JavaScript on the server, use a version of NodeJS greater than
+or equal to `5.5.0`. When using `npm`, use a version greater than or equal to
+`3.0.0`.
+
+Use `eslint` to lint your JavaScript files and enforce code style and
+conventions for the team. This repository includes a `.eslintrc` file which
+leverages the Airbnb JavaScript style guide. In order to use this style guide,
+you will need to install the required `npm` packages locally.
+
+```sh
+npm install --save-dev eslint-config-airbnb eslint
+```
+
+From there, your project can leverage the eslint rules that ship with the Airbnb
+JavaScript style guide.
+
+See [Airbnb's JavaScript styleguide](https://github.com/airbnb/javascript) and
+the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
+
+#### CSS / Sass
 
 Use the [18F Frontend Guild CSS Style Guide](https://pages.18f.gov/frontend/css-coding-styleguide/).
+
+For Sass files, please use the [`.scss-lint.yml`] [18f-lint-scss] file recommended
+from the style guide link above.
+
+[18f-lint-scss]: https://raw.githubusercontent.com/18F/frontend/18f-pages-staging/.scss-lint.yml "18F Frontend CSS Styleguide .scss-lint.yml file"
